@@ -1,3 +1,6 @@
+
+<!-- php info page --> 
+
 <?php phpinfo();?>
 
 <html>

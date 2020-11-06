@@ -1,11 +1,17 @@
+
+<!-- Index.php page file --> 
+
 <!Doctype html> 
 <html>
 
+
+<!-- css files link -->
 <style>
 <?php include 'nav.css'; ?>
 <?php include 'slideshow.css';?>
 </style> 
 
+<!-- header bar -->
 <header> 
 	<ul>
 <li><a href=""> Home</a></li>  
@@ -14,6 +20,8 @@
 <li><a href="https://baileycapstone.wordpress.com/" target="_blank">Blog</a></li> 
 <li><a href="/phpmyadmin">PHPMyAdmin</a></li>  
 </header>
+
+<!-- Body welcome message -->
 
 <body> 
 <p> </p> 
@@ -24,6 +32,16 @@
 	
 
 	?>
+
+
+<!--
+Code for a slideshow on the index page
+
+Goes unusued as I am unsure as to what I want to do with it, also it is not really necessary for the project, just eye candy
+
+
+-->
+
 
 <!-- Slideshow -->
 
@@ -80,6 +98,8 @@ function showSlides() {
 }
 </script>
 -->
+
+
 </body>
 </html> 
 

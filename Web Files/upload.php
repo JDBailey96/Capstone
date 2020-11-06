@@ -1,4 +1,8 @@
 
+<!-- file upload  css file -->
+
+
+
 <?php
 $target_dir = "/var/www/html/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);

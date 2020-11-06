@@ -1,4 +1,7 @@
 
+
+<!-- Downloads php page file !-->
+
 <!doctype html>  
 <html> 
 
@@ -21,13 +24,14 @@
 
 
 
-<!-- Data Dictionary Table -->
+<!-- Title -->
 <title> File Downloads</title>  
 </head> 
 
-
+<!-- Data Dictionary Table -->
 <h1> Downloads</h1> 
 <h2> Data Dictionary</h2>
+
 
 <?php
 echo '
@@ -78,16 +82,10 @@ echo '
 </tr> 
 </table> 
 
-<!-- Upload Files -->
-<form action="upload.php" method="post" enctype="multipart/form-data">
-<p> Upload A File
-  <input type="file" name="fileToUpload" id="fileToUpload">
-  <input type="submit" value="Upload Image" name="submit">
-</form>
 '
 ?>
 
-<!--</body> -->
+
 </html> 
 
 
